@@ -2,10 +2,13 @@
   box-sizing: border-box;
 }
 
+
+
 body>header {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin: -8px -8px 1em -8px;
 }
 
 body>header>div#topbar {
@@ -22,9 +25,23 @@ body>header>div#topbar a {
   color: white;
 }
 
+body>header>nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #ccc;
+  padding: 0.4em;
+}
+
 #infobox figure img {
-  width: 150px;
+  width: 200px;
   height: auto;
+}
+
+#infobox figure figcaption {
+  text-align: center;
+  font-weight: bold;
 }
 
 #infobox {
